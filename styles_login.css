@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
 .contenido {    
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;    
     width: 320px;
 }
@@ -73,11 +79,15 @@
 
 .Email p:nth-child(1) {       
     margin-bottom: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
 }
 
 .Email p:nth-child(3) {   
     margin-top: 24px;
     margin-bottom: 6px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
 }
 
 .Email p:nth-child(5) {  
